@@ -1,0 +1,39 @@
+form{
+    margin-top: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+form input[name="city"],
+form input[name="country"]{
+    background-color: transparent;
+    color:rgb(32, 22, 184);
+    border: 0;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 0;
+    font-family: 'Vazir';
+    text-align: right;
+}
+form input:focus{
+    background-color: transparent;
+    box-shadow: none !important;
+    
+}
+form input::-webkit-input-placeholder{
+    color: turquoise;
+    font-family: 'Vazir';
+}
+form input::-moz-input-placeholder{
+    color: turquoise;
+    font-family: 'Vazir';
+}
+@font-face {
+    font-family: 'Vazir';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/Vazir.ttf'); 
+  }
+  button{
+    font-family: 'Vazir';
+    
+    
+  }

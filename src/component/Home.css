@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'Vazir';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../font/Vazir.ttf'); 
+}
+ 
+ 
+ 
+ .home{
+  background-image: url("../img/home.jpg");
+
+}
+ .header{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-direction: row;
+  width:100%;
+  height:70px; 
+  background-color:#6B52AE;
+} 
+.body{
+  background-color: #E9ECEF;
+  
+}
+.texth{
+  font-family: Vazir;
+  color: #FFFFFF;
+}
+.profileimg{
+  width: 250px;
+  height: 250px;
+  background-color: whitesmoke;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  border-radius: 15px;
+}
+.developer{
+  font-family: Vazir;
+  text-align: center;
+  margin-top: 15px;
+}
+.personal{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.line{
+  border: 1px solid white;
+  width: 100%;
+}
+.abiulty{
+  align-items: center;
+  padding: 5px;
+  margin-bottom: 20px;
+  font-family: Vazir;
+}
+.textab{
+  font-family: Vazir;
+  margin-left: 10px;
+}
+.progres{
+  width: 320px;
+  height: 45px;
+  background-color: white;
+  margin-left: 10px;
+}
+.textabu{
+  display: flex;
+  direction: rtl;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items:flex-end;
+  margin-top: 10px;
+  border-radius: 30px;
+  font-family: Vazir;
+}
+.education{
+justify-content: center;
+font-family: Vazir;
+text-align: center;
+margin-top: 15px;
+}
+.pargrahp{
+  font-family: Vazir;
+}
+.favor{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.textfavor{
+  font-family: Vazir;
+  text-align: center;
+  margin-top: 15px;
+}
+.maineducation{
+  display: flex;
+  direction: rtl;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.textedu{
+  text-align: center;
+  font-family: Vazir;
+}
+.backgr{
+  margin: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+.image{
+  width: 250px;
+  height: 250px;
+}
+.imagerow{
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 auto; */
+}
+.image1{
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 35px;
+}
+.imageproject{
+  width: 250px;
+  height: 352px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.mainimaigep{
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  align-items: center;
+}
+.imagetechno{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 25px;
+  padding: 10px;
+}
+.texttechno{
+  font-family: Vazir;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  background-color:blue;
+   flex-direction: column;  
+   align-items: center;
+   justify-content: center;
+  
+}
+.icon{
+  color: #fff;
+}
+.maintagicon{
+  display: flex;
+  flex-direction: row; 
+  width: 100%;
+   align-items: stretch; 
+   justify-content: center;
+   text-align: center;
+   background-color: blue;
+   padding: 10px;
+}
+.items{
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+}
+.commiction{
+  color: #fff;
+  margin-top: 10px;
+  font-family: Vazir;
+}
+.contect{
+  color: #fff;
+}
+div>a:hover{
+  text-decoration: none;
+  color: rgb(35, 108, 243);
+}
+div>a{
+  color: #26395D;
+}
+.fun{
+  padding:12px;
+}

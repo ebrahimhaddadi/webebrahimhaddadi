@@ -1,0 +1,16 @@
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+h1,h5,h4{
+    text-align: center;
+    font-family: 'Vazir';
+    margin-top: 1.2rem;
+}
+@font-face {
+    font-family: 'Vazir';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/Vazir.ttf'); 
+  }

@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Vazir';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../font/Vazir.ttf'); 
+  }
+
+.main{
+    direction: rtl;
+    text-align: right;
+     width: 100%;
+     padding-bottom: 0px;
+     /* height: 50px; */
+}
+.list{
+    background-color: rgb(61, 12, 197);
+    width: 100%;
+}
+.link{
+    color: white;
+    font-family: Vazir;
+
+}
+.link:hover{
+    color: rgb(228, 197, 197);
+}
+@media screen and (max-width: 600px) {
+    .main Link:not(:first-child) {display: none;}
+    .main link{
+      float: right;
+      display: block;
+    }
+  }
